@@ -27,6 +27,10 @@
 
 <h2>Software Desenvolvido e Documentação de Código</h2>
 <p>Neste diretório é possível encontrar o código do projeto com explicações do funcionamento e comentários no código.</p>
+<p>O software utilizado foi o circuito.io para a criação do modelo 3d do prototipo.</p>
+<div align="center">
+    <img src="https://github.com/Victor21Bari/SensorECG/assets/84679494/c9be3b64-e2e2-40d3-ab69-0e049163ced6"  width="700px" height="400px"/>
+</div>
 
 <h2>Descrição do Hardware Utilizado</h2>
 <ul>
