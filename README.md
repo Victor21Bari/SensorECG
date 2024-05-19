@@ -1,4 +1,4 @@
-# SesnorECG
+# SensorECG
 Projeto de Medição de Sinais Cardíacos com ECG AD8232 e ESP32
 <h1>Projeto de Medição de Sinais Cardíacos com ECG AD8232 e ESP32</h1>
 
