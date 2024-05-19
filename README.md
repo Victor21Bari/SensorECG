@@ -38,6 +38,10 @@
     <li><strong>Jumpers Macho-Fêmea:</strong> Utilizados para conectar os componentes na protoboard.</li>
 </ul>
 
+<div align="center">
+    <img src="https://github.com/Victor21Bari/SensorECG/assets/84679494/b16c2fd9-32f7-451a-bdf4-7f83db93be92"  width="700px" height="400px"/>
+</div>
+
 <h2>Documentação das Interfaces, Protocolos e Módulos de Comunicação</h2>
 
 <h3>Interfaces</h3>
