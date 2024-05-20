@@ -6,6 +6,27 @@
 
 <h2>Passos para Reproduzir o Projeto</h2>
 
+<h2>IDE Arduino</h2>
+<p>Visite o <a href="https://www.arduino.cc" target="_blank">site oficial do Arduino</a> e vá até a seção de downloads. Escolha a versão da IDE do Arduino que seja compatível com seu sistema operacional.</p>
+<p>Execute o instalador que você baixou e siga as instruções exibidas na tela. Durante a instalação, certifique-se de que todos os drivers necessários sejam instalados.</p>
+
+<h3>Adicionar o URL do Gerenciador de Placas para a ESP32:</h3>
+<p>Na IDE do Arduino, vá até "Arquivo" > "Preferências". No campo "URLs Adicionais de Gerenciadores de Placas", insira as URL´s abaixo:</p>
+<p><a href="https://arduino.esp8266.com/stable/package_esp8266com_index.json" target="_blank">https://arduino.esp8266.com/stable/package_esp8266com_index.json</a></p>
+<p><a href="https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" target="_blank">https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json</a></p>
+
+<h3>Selecionar a Placa ESP32:</h3>
+<p>Depois de instalar, vá para "Ferramentas" > "Placa:" e selecione o modelo específico da sua ESP32 na lista de opções disponíveis.</p>
+
+<h3>Conectar a ESP32 ao Computador:</h3>
+<p>Conecte a Esp32 em um cabo USB e plugue em um entrada USB do Computador.</p>
+
+<h3>Selecionar a porta conectada do USB</h3>
+<p>Acesse "Ferramentas" > "Porta" e selecione a porta COM que corresponde à sua ESP32.</p>
+
+<p>Clique em "OK".</p>
+<p>Pronto, sua placa estará configurada com o Computador.</p>
+
 <h3>Montagem do Hardware</h3>
 <ul>
     <li>Conecte o sensor ECG AD8232 ao ESP32 seguindo o diagrama de pinos.</li>
@@ -24,6 +45,27 @@
     <li>Ligue o sistema e monitore a saída do serial monitor no Arduino IDE para verificar os valores de BPM.</li>
     <li>Acompanhe a publicação dos dados em tempo real na plataforma Ubidots.</li>
 </ul>
+
+<h3>Para configurar com a plataforma Ubidots, siga esses passos:</h3>
+
+<p>Acesse o site: <a href="https://ubidots.com/">Ubidots</a></p>
+<p>Crie uma conta.</p>
+
+<div align="center">
+    <img src="https://github.com/Victor21Bari/SensorECG/assets/84679494/21d58d1b-b1af-4871-b56e-8b6165ad852d"  width="700px" height="400px"/>
+</div>
+<p>Após o login, clique em "Devices" > "Device" e clique no botão verde de "+" para adicionar um dispositivo. Nomeie como prefirir.  </p>
+
+<div align="center">
+    <img src="https://github.com/Victor21Bari/SensorECG/assets/84679494/aac3bcbc-fc8d-4344-a022-be445cc34c48"  width="700px" height="400px"/>
+</div>
+
+<p>Após adicionar o "Devices" clique nele e dentro do dispositivo você verá uma tela para adicionar uma variavel, adicione com o nome que desejar.</p>
+<p>Assim que criar a variável,você terá acesso ao gráfico com os valores recebidos do sensor AD8232 pelo protocolo MQTT. </p>
+
+<div align="center">
+    <img src="https://github.com/Victor21Bari/SensorECG/assets/84679494/46bdaea8-66c7-4c48-998e-e2cfef682489"  width="700px" height="400px"/>
+</div>
 
 <h2>Software Desenvolvido e Documentação de Código</h2>
 <p>Neste diretório é possível encontrar o código do projeto com explicações do funcionamento e comentários no código.</p>
